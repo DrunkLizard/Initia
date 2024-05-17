@@ -167,10 +167,9 @@ initiad config set client keyring-backend test
 initiad tx mstaking create-validator \
 --amount 1000000uinit \
 --pubkey $(initiad tendermint show-validator) \
---moniker "Validatör İsmi" \
---identity "Yoksa bu satırı sil" \
+--moniker "Lennymyboah" \
 --details "Rues Community" \
---website "Twitter veya Github Koyun" \
+--website "https://github.com/DrunkLizard" \
 --chain-id initiation-1 \
 --commission-rate 0.05 \
 --commission-max-rate 0.20 \
