@@ -167,7 +167,7 @@ initiad config set client keyring-backend test
 initiad tx mstaking create-validator \
 --amount 1000000uinit \
 --pubkey $(initiad tendermint show-validator) \
---moniker "Lennymyboah" \
+--moniker "lennymyboah" \
 --details "Rues Community" \
 --website "https://github.com/DrunkLizard" \
 --chain-id initiation-1 \
